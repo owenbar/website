@@ -1,5 +1,5 @@
 h1 {
-  color: #000000;
+  color: black;
   text-align: center;
   font-size:7vw;
   font-family: serif;
@@ -9,7 +9,7 @@ html{
 }
 body{
   height: calc(100% - 1em);
-  background-color: #333333;
+  background-color: white;
 }
 p {
   text-align: center;
