@@ -4,51 +4,72 @@ html{
 }
 body{
   height: calc(100% - 1em);
-  background-color:	#FCF5E5;
+  background-color: #F5F5F5	;
+}
+@font-face {
+  font-family: Mina;
+  src: url(Mina-Regular.ttf);
+}
+@font-face {
+  font-family: Mina;
+  src: url(Mina-Bold.ttf);
+  font-weight: bold;
 }
 .main-flex-container {
   display: flex;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width:27%;
-  height:35%;
+  align-items: center;
+  left: 40%;
+  width:40%;
+  height:100%;
   margin: auto;
-  transform: translate(-50%, -50%);
-  justify-content: centre;
+  transform: translate(-50%, 0%);
+  justify-content: center;
 }
 .main-flex-container > textbox {
-  background-color:	#FAF9F6;
-  border-width: 2px;
-  border-color: black;
-  border-style: double;
   width: 100%;
   margin: 10px;
   text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  line-height: 3vw;
   padding-left: 10%;
+  padding-right:10%;   
+  transform: translate(0%,-5%);
 }
-h4 {
+.main-flex-container > image-container {
+  background-color: #000000;
+
+}
+h1 {
   color: #000000;
-  text-align: center;
-  line-height: 1;
+  font-size:2.5vw;
+  font-family: Mina, serif;
+  text-align: left;
+  letter-spacing:0.1vw;
+  word-spacing:0.2vw;
+  line-height: 2vw;
+  padding-bottom: 2%;
+  white-space: nowrap;
 }
 p {
+  font-family: Mina, serif;
   text-align: left;
+  padding-left:4vw;
   color:	#000000;
-  font-size:21px;
-  line-height: 0.4;
+  font-size:0.9vw;
+  line-height: 1.2vw;
 }
 a {
+  font-family: Mina, serif;
   text-align: left;
   color: #000000;
-  font-size:20px;
-  line-height: 0.8;
+  font-size: 0.9vw;
 }
 
 ul {
+  padding-left:4vw;
+  line-height: 2.5vw;
   text-align: left;
   list-style-position: inside;
   margin-top:0;
 }
+
